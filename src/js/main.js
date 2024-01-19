@@ -4,10 +4,10 @@ export const addAnimationForChangePages = () => {
 
     for(let i = 0; i < as.length;i++) {
         as[i].addEventListener("click", (e) => {
-            app.classList.remove("opacity")
+            app.classList.remove("opacity");
             
             setTimeout(() => {
-                app.classList.add("opacity")
+                app.classList.add("opacity");
             }, 50)
 
         })

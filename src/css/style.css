@@ -114,6 +114,14 @@ button {
     transition: background 250ms ease-in-out;
 }
 
+button a {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+
 button:hover {
     background: var(--color-text);
     color: var(--btt-hover);
