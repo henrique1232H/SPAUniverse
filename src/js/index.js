@@ -1,5 +1,8 @@
 import Router from "./router.js";
 import { checkWindowLocation } from "./checkWindowLocation.js";
+import { addAnimationForChangePages } from "./main.js";
+
+addAnimationForChangePages()
 
 
 const routes = new Router();
