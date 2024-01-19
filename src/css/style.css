@@ -17,6 +17,10 @@
 }
 
 body {
+    background: black;
+}
+
+body {
     height: 100vh;
     background-position: center center;
     background-size: cover;

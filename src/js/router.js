@@ -15,16 +15,20 @@ export default class Router {
     }
 
     handle() {
-        const { pathname } = window.location
-        const route = this.routes[pathname] || this.routes[404]
+        const { pathname } = window.location;
+    
+        const route = this.routes[pathname] || this.routes[404];
 
         
+        
         fetch(route)
-         .then((data) => data.text())
-         .then((html) => {
-            document.querySelector("#app").innerHTML = html;
-        })
-
+        .then((data) => data.text())
+        .then((html) => {
+            
+             document.querySelector("#app").innerHTML = html;
+            })
+            
+            
     }
 
 }

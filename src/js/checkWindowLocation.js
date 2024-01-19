@@ -24,6 +24,7 @@ export const checkWindowLocation = () => {
         body.style.backgroundImage = `url(${images.images[2]})`;
     }
 
+
     if(pathname === "/exploration") {
         a[2].classList.add("white")
         a[1].classList.remove("white")

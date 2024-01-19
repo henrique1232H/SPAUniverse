@@ -13,7 +13,7 @@ routes.handle();
 checkWindowLocation();
 
 window.onpopstate = () => {
-    routes.handle()
+    routes.handle();
     checkWindowLocation();
 };
 window.route = () => {
